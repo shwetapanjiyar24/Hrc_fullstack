@@ -1,0 +1,196 @@
+.hrc-logo{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.hrc-main-logo{
+    position: relative;
+    bottom: 40px;
+}
+
+.search-container input[type=text],.button2 {
+
+    float: right;
+    padding: 8px;
+    border:  0px #d4f1f9;
+    margin-top: -70px;
+    margin-right: 60px;
+    font-size: 17px;
+    background-color:#d4f1f9;
+
+  }
+  .button2{
+      margin-right : -275px;
+      padding: 3px;
+      
+      
+  }
+  .btn1,.btn2,.btn3,.btn4,.btn5{
+  background-color : #F48400;
+  }
+  
+  .btn3{
+    float: right;
+    margin-right : 150px;
+  
+  }
+  
+  
+  .table{
+		width:99%; 
+		margin-top:30px;
+		
+		margin-left:10px;
+		font-size:12px;
+	}
+	
+
+ 
+tr:nth-child(odd) {
+ background-color: #D6EAF8;}
+ tr:first-child{
+	background-color:#FFA500;
+}
+
+.yellow {
+  background-color:#FFE4B5;
+}
+	
+  
+   .pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 6px 10px;
+  text-color:#d4f1f9;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+  background:#d4f1f9;
+  font-size:10px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #c0c0c0;
+  }
+ 
+       *, *::after, *::before {
+    box-sizing: border-box;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
+  }
+  
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid orange;
+  }
+  
+  .modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    
+   
+  }
+  
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    padding: 10px 15px;
+  }
+ 
+  .button2{
+    margin-right : -275px;
+    padding: 3px;
+    
+}
+.btn1,.btn2,.btn3,.btn4,.btn5{
+
+  background-color: #FC7500;
+  color:white;
+  
+  
+
+}
+.btn3{
+  float: right;
+  margin-right : 150px;
+
+}
+	
+	
+	
+	 #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+  
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+.containerfull{
+  width: 100%;
+  border: 6px;
+  margin-top:-15px;
+  padding-bottom: -10px;
+  padding-top: -20px;
+  border-style: groove
+}
+.btn1{
+  margin-top: 15px;
+  margin-left: 10px;
+  color:white;
+  }
+  .btn2{
+  margin-top: 15px;
+  color:white;
+  }
+  
+ 
+

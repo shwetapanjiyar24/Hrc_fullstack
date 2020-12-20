@@ -1,17 +1,88 @@
-
 *{
 	box-sizing:border-box;
+	margin:0;
 }
 
+
+body{
+  background-position: 0% 20%;
+  background-repeat: no-repeat;
+  background-size: contain;
+ 
+  
+}
+
+.row{
+	margin-top:5%;
+}
+
+#nameid,#pass{
+	border: 0px;
+	border-bottom:2px solid #fc7500;
+	width: 430px;
+	height:35px;
+	background-color: rgba(71, 202, 247, 0.1);
+}
+
+.sign{
+	font-family: century-gothic, sans-serif;
+	font-size:22px;
+}
+.form {
+  float: right;
+  width: 50%;
+  padding: 10px;
+ 	
+ 	font-weight: bold;
+ 	color:#d8d8d8;
+ 	
+ 	 }
+ 
+ form{
+ 	color: #666666;
+ 	font-size:15px;
+ 	font-family: century-gothic, sans-serif;
+ 	font-weight: bold;
+ }
+ 
+.tagLine {
+	margin-left:-200px;
+	margin-top:10%;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  background-color: #8fd165;
+  text-align: right;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color :white;
+   font-size:30px;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear:both;
+  
+}
+
+
 .button {
-  background-color: #ed7d0c;
+  background-color: #d8d8d8;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 30px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius:10px;
+ 	
+ 	font-family: century-gothic, sans-serif;
+ 	font-weight: bold;
 }
 
 .header{
@@ -21,7 +92,7 @@
 }
 
 .header-logo-div{
-	text-align:center;
+	text-align:left;
 }
 
 .header-text-div{
@@ -30,3 +101,4 @@
 .header-button-div{
 	text-align:center
 }
+

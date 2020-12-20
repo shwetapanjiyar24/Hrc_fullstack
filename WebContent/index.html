@@ -1,24 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Highradius Winter Recruitment</title>
-<link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-<section class="header">
-<div class="header-logo-div"> 
-<img src="images/hrc-logo.svg" alt="highradius-logo" class="hrc-logo">
-</div>
-<div class="header-button-div">
-
-<h2 id="nameid">Welcome to Highradius Winter Internship</h2>
-</div> 
-<div class="header-text-div"> 
- 
-<button class="button" onclick="clickHandler()" id="requester">Send a Request</button>
-</div>
-</section>
-<script src="js/index.js"></script>
-</body>
+    <head>
+        <meta charset="ISO-8859-1">
+        <title>Highradius Winter Recruitment</title>
+         <link rel="stylesheet" href='css/index.css'>
+        <link rel="preconnect" href='https://fonts.gstatic.com'>
+         <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+           <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" >      
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </head>
+    <body style= "background-image: url('images/machine1.jpg');">
+        <section class="header">
+            <div class="header-logo-div"> 
+                <img src="images/hrc-logo.svg" alt="highradius-logo" class="hrc-logo">
+                
+            </div>
+            </section>
+          <div class="row">
+          <div class="tagLine">
+          	ORDER MANAGEMENT APPLICATION 
+          </div>
+          <div class="form">
+          <p class="sign">Sign In</p> 
+          <br>          <br><br>
+         <form action="">
+         Username<br><br>
+          	<input type="text" id="nameid" name="username">
+          	<br><br>
+          	Password
+          	<br><br>
+          	<input type="password" id="pass" name="password">
+                 <br>
+                 <br>
+                 <br>
+                <div class="header-button-div">                    
+                    <input type="submit" value="Sign In" class="button" onclick="clickHandler()" id="requester">
+                </div>
+         </form>
+            </div>
+         
+          </div>
+          
+      <script src = "js/Login.js"></script>      
+       
+    </body>
 </html>
